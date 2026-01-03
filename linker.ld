@@ -2,7 +2,6 @@ ENTRY(Reset_Handler)
 
 MEMORY
 {
-    /* SỬA: Flash của LM3S6965 bắt đầu từ 0x00000000 */
     FLASH (rx) : ORIGIN = 0x00000000, LENGTH = 256K 
     RAM (rwx)  : ORIGIN = 0x20000000, LENGTH = 64K
 }

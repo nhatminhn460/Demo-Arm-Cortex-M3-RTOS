@@ -54,7 +54,6 @@ void main(void) {
     process_create(task_deadlock_2, 7, 5, NULL);
     process_create(task_banker1, 8, 4, max_res_t1);
     process_create(task_banker2, 9, 4, max_res_t2);
-    process_create(test_mpu_fault, 10, 6, NULL);
     //process_admit_jobs();
 
     /* Khởi động nhịp tim hệ thống */
